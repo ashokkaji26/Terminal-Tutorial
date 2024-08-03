@@ -1,0 +1,67 @@
+                  *********** Terminal Tutorial ************
+
+NOTE:- NOTE:- Here you will find complete step by step guid for using Terminal.
+
+1. ls ---> it will display all the items of the current directory.
+
+2. pwd  ---> it will display the current working directory.
+
+3. clear  ---> it will clear the display/terminal.
+
+4. cd directory_name ---> it will change one directory.
+
+5. cd ..   ---> back button , you will go one step back.
+
+6. Tab   ---> autocomplete the file/folder names.
+
+7. cd folder_name/folder_name/folder_name   ---> change multiple directory in one go.
+
+8. cd ../../../..     ---> multiple steps back at one go.
+
+9.  cd ~     ---> Go back to home directory. 
+
+10. Relative Path :-  cd Desktop/Delta 
+    ---> Relative Paths start with a folder_name, and depend upon current  working directory.
+    ---> Means if you are at current working directory then using relative path you can only navigate to the directories,
+         which are inside current working directory. 
+
+11. Absolute Path :- /users/ashokkaji/Codes/C 
+---> Absolute path starts with / (forward slash).
+---> And don’t depend upon current working directory. you can navigate to any directory from any anywhere using absolute path.
+
+12.  / (forward slash) :- it indicates Root directory . computer ki sari chije root directory me hoti h, including multiple profiles.
+
+13. ~ (tilt) :- it indicates Home directory. kisi particular profile ki sari files and folders home directory me  rahti hai.
+
+14. mkdir (make directory)  ---> it will create a directory,  which is not already existed.
+
+15. mkdir using relative path = mkdir Codes/C/hello
+
+16. mkdir /users/ashokkaji/Codes/C/hello2  ---> create directory using absolute path. 
+
+17. Files or folders which start with dot(.) is hidden and not visible to a normal users.
+
+18. Flags :- Flags are characters which added with commands to get extra iformantion. Ex:- ls -a, ls -l etc.
+
+19. mannual :- kisi v chij ki puri janm Patri means all informations.
+
+20. Mannual command :- gives information about any commands. Ex:- man ls, man mkdir.
+
+21. ls -a   ---> list all the items including hidden items.
+
+22. We can also combine multiple flags to get informations together, for example: ls -la.
+
+23. It is advisable that whenever create a file create with a proper extension.
+
+24. Touch command :- used to create files .
+---> Ex: touch hello.html
+
+25. Touch :- main working to change files access and time modify but if that files doesn’t exist then it creates a new file.
+
+26. Deleting from terminal is very sensitive  because once deleted from terminal we can’t restore it, so use it wisely.
+
+27. rm (remove files)  ---> it removes files permanently.
+
+28. rmdir (Remove directory)   ---> it will remove empty directory only.
+
+29. rm -rf (recursive force)  ---> removes any folder = r(recursive delete), f(forced delete). = combined flags
