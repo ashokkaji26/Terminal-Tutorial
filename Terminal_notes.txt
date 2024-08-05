@@ -1,6 +1,6 @@
                   *********** Terminal Tutorial ************
 
-NOTE:- Here you will find complete step by step guid for using Terminal.
+* NOTE:- Here you will find complete step by step guid for using Terminal
 
 
 1. ls ---> it will display all the items of the current directory.
